@@ -1,6 +1,6 @@
 # HTML Assignment
 
-Complete the assignment using the given instructions:
+The follwing assignment have been created:
 
 1. **Heading:**
     - Use the `<h1>` tag to create a main heading for your page, welcoming visitors to your assignment project.
