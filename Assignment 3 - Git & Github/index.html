@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git & GitHub</title>
+    <style>
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        code {
+            font-family: Consolas, "Courier New", monospace;
+            background-color: #f4f4f4;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Git & GitHub Documentation</h1>
+
+    <h3>Git: Version Control System</h3>
+    <p>Git is a distributed version control system used to track changes in code and collaborate effectively.</p>
+
+    <h3>Key Features:</h3>
+    <ul>
+        <li>Tracks changes in files.</li>
+        <li>Facilitates collaboration between developers.</li>
+        <li>Allows versioning and rollback to previous states.</li>
+    </ul>
+
+    <h3>Common Git Commands:</h3>
+
+    <h4>Check Git Version</h4>
+    <pre><code>git --version</code></pre>
+    <p>Use this command to check the installed version of Git.</p>
+
+    <h4>Check Repository Status</h4>
+    <pre><code>git status</code></pre>
+    <p>Shows the current status of the working directory and staging area.</p>
+
+    <h4>Add Files to Staging</h4>
+    <pre><code>git add file_name</code></pre>
+    <p>Adds a specific file to the staging area.</p>
+    <pre><code>git add .</code></pre>
+    <p>Adds all changes (new, modified, deleted files) to the staging area.</p>
+
+    <h4>Commit Changes</h4>
+    <pre><code>git commit -m 'message_detail'</code></pre>
+    <p>Saves the changes to the local repository with a descriptive commit message.</p>
+
+    <h4>Initial Configuration for Commits</h4>
+    <p>For the first commit, Git may prompt you with an error:</p>
+    <pre><code>Please tell me who you are.</code></pre>
+    <p>Resolve it by configuring your user name and email:</p>
+    <pre><code>git config --global user.name "Your Name"
+git config --global user.email "your_email@example.com"</code></pre>
+
+    <h4>Benefits of Making Commits:</h4>
+    <ul>
+        <li>Keeps a history of all changes.</li>
+        <li>Allows rollback to previous versions.</li>
+        <li>Provides a clear timeline of development progress.</li>
+    </ul>
+
+    <h4>View Commit Logs</h4>
+    <pre><code>git log</code></pre>
+    <p>Displays the commit history, showing commit IDs, authors, and messages.</p>
+
+    <h4>Resetting to Previous Commits</h4>
+    <pre><code>git reset --hard commit_id</code></pre>
+    <p>Resets the repository to the specified commit, discarding all changes after it.</p>
+    <pre><code>git reset --soft commit_id</code></pre>
+    <p>Resets the repository to the specified commit but retains changes in the staging area.</p>
+
+    <h4>Pulling Changes from GitHub</h4>
+    <pre><code>git pull</code></pre>
+    <p>Fetches and integrates changes from the remote repository.</p>
+
+    <h4>Deploying a Project on GitHub</h4>
+    <ol>
+        <li>Push your code to a GitHub repository.</li>
+        <li>Go to <strong>Settings</strong> &gt; <strong>Pages</strong>.</li>
+        <li>Configure the source branch and directory for deployment.</li>
+        <li>Complete the steps to deploy your project.</li>
+    </ol>
+
+    <h3>GitHub: Cloud Repository</h3>
+    <p>GitHub is a platform to store, share, and manage code online.</p>
+
+    <h4>Key Features:</h4>
+    <ul>
+        <li>Stores your code in the cloud.</li>
+        <li>Provides tools for collaboration.</li>
+        <li>Supports project management with issues and pull requests.</li>
+    </ul>
+
+    <h3>Branching in Git</h3>
+    <p>Branching allows you to create separate lines of development within a repository.</p>
+
+    <h4>Commands for Branching:</h4>
+
+    <h4>View Current Branch</h4>
+    <pre><code>git branch</code></pre>
+    <p>Displays the current branch and a list of all branches.</p>
+
+    <h4>Create a New Branch</h4>
+    <pre><code>git branch test</code></pre>
+    <p>Creates a new branch named <code>test</code>.</p>
+
+    <h4>Switch to a Different Branch</h4>
+    <pre><code>git checkout test</code></pre>
+    <p>Switches to the <code>test</code> branch.</p>
+    <pre><code>git checkout main</code></pre>
+    <p>Switches back to the <code>main</code> branch.</p>
+
+    <h4>Merge Branches</h4>
+    <pre><code>git merge test</code></pre>
+    <p>Merges the <code>test</code> branch into the current branch.</p>
+
+    <hr>
+    <p>This documentation provides a foundational understanding of Git and GitHub commands, their usage, and the workflows involved. Happy coding!</p>
+</body>
+</html>
