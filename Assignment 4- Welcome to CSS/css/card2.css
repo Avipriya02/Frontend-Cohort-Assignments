@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-color: lightgray;
+}
+.card-container{
+    background-color: white;
+    width: 450px;
+    height: 450px;
+    margin: 30px auto;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+}
+.card-img-container{
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: 30px auto;
+}
+.card-container p{
+    margin-top: 10px;
+    padding: 20px;
+    color: grey;
+}
+.option-container{
+    width: 100%;
+    margin: 15px 0px 15px 0px;
+    text-align: left;
+    padding: 10px;
+}
+.option-container img{
+    width: 30px;
+    height: 30px;
+    vertical-align: middle; 
+    margin-right: 10px;
+}
+.option-container span{
+    font-size: 16px;
+}
+.selected{
+    background-color: lightgray;
+    border-radius: 10px;
+}

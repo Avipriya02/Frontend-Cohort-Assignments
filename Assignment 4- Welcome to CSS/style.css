@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 300px;
+    width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    text-align: center;
+}
+.container a{
+    font-size: 20px;
+}
+.links-container{
+    margin-top: 20px;
+}
