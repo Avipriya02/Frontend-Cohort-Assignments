@@ -1,0 +1,1 @@
+Practiced basics of functions and loops
