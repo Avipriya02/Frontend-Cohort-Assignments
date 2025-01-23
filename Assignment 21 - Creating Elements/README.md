@@ -1,0 +1,1 @@
+This assignment includes the creation of elements using JavaScript.

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="title">Welcome to the JavaScript DOM</h1>
+        <button id="btn" class="btn" onclick="rev()">I know the basics.</button>
+    </div>
+    <div class="container">
+        <h1 id="title">Roll the dice</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia nulla at aliquid ex obcaecati porro nostrum
+            eligendi nobis nihil omnis!</p>
+        <div id="dice" class="dice">0</div>
+        <button id="btn" class="btn" onclick="roll()">Roll the dice</button>
+        <audio src="dice-audio.mp3" id="diceAudio"></audio>
+    </div>
+    <div class="container">
+        <h1 id="title">Create a new box</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia nulla at aliquid ex obcaecati porro nostrum
+            eligendi nobis nihil omnis!</p>
+        <button id="btn" class="btn" onclick="createBox()">Create a Box</button>
+    </div>
+    <div id="box-container" class="box-container"></div>
+    <script src="app.js"></script>
+</body>
+
+</html>
