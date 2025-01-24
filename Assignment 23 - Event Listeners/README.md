@@ -1,0 +1,1 @@
+This assignment includes creating a web page with two navigation bars (navbar1 and navbar2). The first navigation bar, navbar1, should show when the user is at the top of the page. As soon as the user scrolls 600px down, navbar1 should hide, and the second navigation bar, navbar2, should show. Implement this using JavaScript.
