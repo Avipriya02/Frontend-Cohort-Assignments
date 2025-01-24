@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="title">Add Enrolled Users</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, facere? Voluptatum quaerat error vitae
+            architecto modi eos, ex sit facere vel dolor dignissimos repudiandae suscipit dolore sint quibusdam nesciunt
+            recusandae.</p>
+        <div class="flex">
+            <input type="text" class="input" placeholder="Enter Name" id="name">
+            <input type="email" class="input" placeholder="Enter Email" id="email">
+        </div>
+        <div class="flex">
+            <button id="btn" class="btn" onclick="addUser()">Add New User</button>
+            <div id="alert" class="alert"></div>
+        </div>
+    </div>
+
+    <div class="usersContainer" id="usersContainer"></div>
+    <script src="app.js"></script>
+</body>
+
+</html>
